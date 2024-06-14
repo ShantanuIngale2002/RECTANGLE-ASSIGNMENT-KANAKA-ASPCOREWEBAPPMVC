@@ -1,0 +1,96 @@
+CODE ASSIGNMENT PROVIDED BY NIRANJAN SIR on 12/06/2024 but SOLVING on 14/06/2024
+NEEDED TO CREATE IN DOT NET CORE WEB APP MVC.
+SO THE MVC TO GET AND SHOW DATA also DB TO STORE RECORDS IS USED.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+QUESTION
+Maximum Value
+
+Given is a matrix denoting a weighted table.
+Find a rectangle of sides of length at least 2, such that the minimum weight from the 4 corners of the rectangle is maximized.
+That is for the table A[N][M], find the maximum value of MIN(A[i1][j1], A[i1][j2], A[i2][j1], A[i2][j2]) such that 1 <= i1 < i2 <= N and 1 <= j1 < j2 <= M.
+
+Find the minimum weight from the 4 corners of the rectangle that is maximized.
+
+Example
+Given a table of size 2, 2:
+1 2
+3 4
+Maximal Min Weight Corners  = 1 (for i1 = 1, i2 = 2, j1 = 1, j2 =2) as there is only one choice for the given table.
+
+Function Description
+In the provided code snippet, implement the provided maximalCorners(...) method to find the minimum weight from the 4 corners of the rectangle that is maximized. You can write your code in the space below the phrase “WRITE YOUR LOGIC HERE”.
+
+There will be multiple test cases running so the Input and Output should match exactly as provided.
+The base Output variable result is set to a default value of -404 which can be modified. Additionally, you can add or remove these output variables.
+
+Input Format
+The first line contains 2 space-separated integers, N and M, denoting the number of rows and columns in the table.
+The next N lines contain M space-separated integers, denoting the elements of table A.
+
+Sample Input
+2 2                           -- denotes N, M
+1 2                           -- denotes A[i][j]
+3 4
+
+Constraints
+2 <= N, M <= 1000
+1 <= A[i][j] <= 109
+
+Output Format
+The output contains a single integer denoting the minimum weight from the 4 corners of the rectangle is maximized.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++==++++++++++
+
+FOR THIS TEST CASE
+M, N = 5,4
+A = [[1,8,3,5],[2,5,4,2],[3,4,5,6],[1,4,2,6],[2,8,1,7]]
+
+Since atleast 2 sides but from fundamental if we check all values the explicitly whole matrix gets covered anyway.
+Hence we will perform fudamental min of 4 elements as
+max=0
+at any i,j do
+	min = MIN(min(A[i][j], A[i+1][j], A[j][i+1], A[i+1][j+1])
+	if min > max : max = min
+return max
+
+consider A =
+1 8 3 5
+2 5 4 2
+3 4 5 6
+1 4 2 6
+2 8 1 7
+
+like for i=0,j=0
+consider 
+A[0][0] = 1
+A[0][1] = 8
+A[1][0] = 2
+A[1][1] = 5
+minimum is 1 ie. > max:0 hence max=1
+likewise if we do this for all i,j
+finally in rectangle
+8 3 5
+5 4 2
+4 5 6
+4 2 6
+8 1 7
+min(Corners) = 5 ie > max:any hence max=5 (which is sol)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+So
+The code template in python is 
+
+M, N = 5,4
+A = [[1,8,3,5],[2,5,4,2],[3,4,5,6],[1,4,2,6],[2,8,1,7]]
+maxValue = 0
+for i in range(M):
+    for j in range(N):
+	for k in range(i+1, M):
+		for l in range(j+1, N):
+        		currMin = min(A[i][j], A[i][l], A[k][j], A[k][l])
+        		if currMin > maxValue:
+            			maxValue = currMin
+print(maxValue)
