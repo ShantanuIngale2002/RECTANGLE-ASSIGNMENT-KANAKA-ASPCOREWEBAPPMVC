@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kanaka\\Desktop\\AssignmentRectangleCorner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93D33E8D-07B7-46C2-B1D7-1606AD52DD23}|AssignmentRectangleCorner.csproj|c:\\users\\kanaka\\desktop\\assignmentrectanglecorner\\views\\home\\getallrecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D33E8D-07B7-46C2-B1D7-1606AD52DD23}|AssignmentRectangleCorner.csproj|solutionrelative:views\\home\\getallrecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D33E8D-07B7-46C2-B1D7-1606AD52DD23}|AssignmentRectangleCorner.csproj|c:\\users\\kanaka\\desktop\\assignmentrectanglecorner\\repository\\testcaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D33E8D-07B7-46C2-B1D7-1606AD52DD23}|AssignmentRectangleCorner.csproj|solutionrelative:repository\\testcaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D33E8D-07B7-46C2-B1D7-1606AD52DD23}|AssignmentRectangleCorner.csproj|c:\\users\\kanaka\\desktop\\assignmentrectanglecorner\\repository\\interface\\itestcaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D33E8D-07B7-46C2-B1D7-1606AD52DD23}|AssignmentRectangleCorner.csproj|solutionrelative:repository\\interface\\itestcaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D33E8D-07B7-46C2-B1D7-1606AD52DD23}|AssignmentRectangleCorner.csproj|c:\\users\\kanaka\\desktop\\assignmentrectanglecorner\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D33E8D-07B7-46C2-B1D7-1606AD52DD23}|AssignmentRectangleCorner.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestCaseService.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\Desktop\\AssignmentRectangleCorner\\Repository\\TestCaseService.cs",
+              "RelativeDocumentMoniker": "Repository\\TestCaseService.cs",
+              "ToolTip": "C:\\Users\\kanaka\\Desktop\\AssignmentRectangleCorner\\Repository\\TestCaseService.cs",
+              "RelativeToolTip": "Repository\\TestCaseService.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAgwHcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:39:52.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITestCaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\Desktop\\AssignmentRectangleCorner\\Repository\\Interface\\ITestCaseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interface\\ITestCaseRepository.cs",
+              "ToolTip": "C:\\Users\\kanaka\\Desktop\\AssignmentRectangleCorner\\Repository\\Interface\\ITestCaseRepository.cs",
+              "RelativeToolTip": "Repository\\Interface\\ITestCaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:39:27.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAllRecords.cshtml",
+              "DocumentMoniker": "C:\\Users\\kanaka\\Desktop\\AssignmentRectangleCorner\\Views\\Home\\GetAllRecords.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\GetAllRecords.cshtml",
+              "ToolTip": "C:\\Users\\kanaka\\Desktop\\AssignmentRectangleCorner\\Views\\Home\\GetAllRecords.cshtml",
+              "RelativeToolTip": "Views\\Home\\GetAllRecords.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T16:35:09.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\Desktop\\AssignmentRectangleCorner\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kanaka\\Desktop\\AssignmentRectangleCorner\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:34:37.02Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
